@@ -1,5 +1,5 @@
 # rest-service
-task for advance engineering
+Тестовое задание на практику в Advance Engineering
 
 # Инструкция по запуску
 1. Открыть папку проекта rest-service в любой IDE
