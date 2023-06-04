@@ -9,5 +9,22 @@
 <form th:action="@{/logout}" method="post">
   <input type="submit" value="Sign Out"/>
 </form>
+
+<h1>Type your task here</h1>
+<form action="/task" method="post">
+<label for="name">Project name: </label> <br>
+<input type="text" name="pname"> <br>
+
+<label for="case1">Case: </label> <br>
+<input type="text" name="case1"> <br>
+
+<label for="case2">Case: </label> <br>
+<input type="text" name="case2"> <br>
+
+<label for="case3">Case: </label> <br>
+<input type="text" name="case3"> <br>
+
+<button type="submit">Submit</button>
+</form>
 </body>
 </html>
